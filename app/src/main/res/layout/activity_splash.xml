@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_primary"
+    android:padding="@dimen/spacing_xl">
+
+    <!-- Logo Area (placeholder for user's custom icon) -->
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="@dimen/spacing_lg">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_placeholder"
+            android:contentDescription="Logo" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/accent_lime"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/spacing_sm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_tagline"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_body"
+        android:layout_marginBottom="@dimen/spacing_xl" />
+
+    <!-- Biometric prompt indicator -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieFingerprint"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvBiometricHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sentuh sensor sidik jari untuk masuk"
+        android:textColor="@color/text_tertiary"
+        android:textSize="@dimen/text_caption"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/spacing_md" />
+
+    <!-- Progress for loading -->
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:indicatorColor="@color/accent_lime"
+        app:trackColor="@color/bg_surface_variant"
+        app:indicatorSize="40dp"
+        android:layout_marginTop="@dimen/spacing_xl" />
+
+</LinearLayout>

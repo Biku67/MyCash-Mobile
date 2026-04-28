@@ -120,12 +120,12 @@ git clone https://github.com/Biku67/MyCash-Mobile.git
 ## Roadmap
 
 - [x] Project setup & arsitektur dasar
-- [ ] Database lokal (Room) & Entity
-- [ ] Splash screen dengan Biometric
-- [ ] Dashboard & grafik arus kas
-- [ ] Pencatatan transaksi (CRUD)
-- [ ] Manajemen siswa
-- [ ] Manajemen iuran
+- [x] Database lokal (Room) & Entity
+- [x] Splash screen dengan Biometric
+- [x] Dashboard & grafik arus kas
+- [x] Pencatatan transaksi (CRUD)
+- [x] Manajemen siswa
+- [x] Manajemen iuran
 - [ ] Laporan & export (PDF/Excel)
 - [ ] Backup & restore
 - [ ] Quick-add widget
