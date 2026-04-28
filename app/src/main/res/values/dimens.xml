@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+
+    <!-- Button -->
+    <dimen name="btn_radius">12dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_heading">20sp</dimen>
+    <dimen name="text_subtitle">16sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_small">11sp</dimen>
+
+    <!-- Stat card number -->
+    <dimen name="text_stat">22sp</dimen>
+
+    <!-- Icon -->
+    <dimen name="icon_sm">20dp</dimen>
+    <dimen name="icon_md">24dp</dimen>
+    <dimen name="icon_lg">40dp</dimen>
+
+    <!-- FAB -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Bottom sheet -->
+    <dimen name="bottom_sheet_radius">24dp</dimen>
+</resources>

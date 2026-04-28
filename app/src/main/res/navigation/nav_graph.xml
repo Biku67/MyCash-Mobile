@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.bily.mycash.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="com.bily.mycash.ui.transaction.TransactionListFragment"
+        android:label="@string/nav_transactions"
+        tools:layout="@layout/fragment_transaction_list" />
+
+    <fragment
+        android:id="@+id/nav_dues"
+        android:name="com.bily.mycash.ui.dues.DuesFragment"
+        android:label="@string/nav_dues"
+        tools:layout="@layout/fragment_dues" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.bily.mycash.ui.settings.AccountFragment"
+        android:label="@string/nav_account"
+        tools:layout="@layout/fragment_account" />
+
+</navigation>

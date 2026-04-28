@@ -1,3 +1,90 @@
 <resources>
-    <string name="app_name">Mycash</string>
+    <string name="app_name">MyCash</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Beranda</string>
+    <string name="nav_transactions">Kas</string>
+    <string name="nav_dues">Iuran</string>
+    <string name="nav_account">Akun</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Selamat datang,</string>
+    <string name="dashboard_balance">Saldo Kas</string>
+    <string name="dashboard_income">Pemasukan</string>
+    <string name="dashboard_expense">Pengeluaran</string>
+    <string name="dashboard_chart_title">Arus Kas 6 Bulan Terakhir</string>
+    <string name="dashboard_recent">Transaksi Terakhir</string>
+    <string name="dashboard_see_all">Lihat Semua</string>
+
+    <!-- Transactions -->
+    <string name="tx_add_title">Catat Transaksi</string>
+    <string name="tx_type_income">Pemasukan</string>
+    <string name="tx_type_expense">Pengeluaran</string>
+    <string name="tx_amount">Jumlah (Rp)</string>
+    <string name="tx_description">Deskripsi</string>
+    <string name="tx_date">Tanggal</string>
+    <string name="tx_save">Simpan</string>
+    <string name="tx_empty">Belum ada transaksi</string>
+
+    <!-- Students -->
+    <string name="student_title">Manajemen Siswa</string>
+    <string name="student_add">Tambah Siswa</string>
+    <string name="student_name">Nama Lengkap</string>
+    <string name="student_nis">NIS</string>
+    <string name="student_phone">No. HP (opsional)</string>
+    <string name="student_empty">Belum ada siswa terdaftar</string>
+    <string name="student_count">%d siswa terdaftar</string>
+
+    <!-- Dues -->
+    <string name="due_title">Manajemen Iuran</string>
+    <string name="due_create">Buat Tagihan</string>
+    <string name="due_amount">Nominal (Rp)</string>
+    <string name="due_date">Jatuh Tempo</string>
+    <string name="due_select_student">Pilih Siswa</string>
+    <string name="due_pay">Bayar</string>
+    <string name="due_paid">Lunas</string>
+    <string name="due_unpaid">Belum Bayar</string>
+    <string name="due_tab_unpaid">Belum Bayar</string>
+    <string name="due_tab_paid">Lunas</string>
+    <string name="due_empty">Belum ada tagihan</string>
+    <string name="due_confirm_pay">Konfirmasi pembayaran iuran ini?</string>
+    <string name="due_share_wa">Bagikan ke WhatsApp</string>
+
+    <!-- Report -->
+    <string name="report_title">Laporan</string>
+    <string name="report_filter">Filter</string>
+    <string name="report_from">Dari</string>
+    <string name="report_to">Sampai</string>
+    <string name="report_export_pdf">Export PDF</string>
+    <string name="report_export_excel">Export Excel</string>
+    <string name="report_total_income">Total Pemasukan</string>
+    <string name="report_total_expense">Total Pengeluaran</string>
+    <string name="report_net_balance">Saldo Bersih</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_profile">Profil</string>
+    <string name="settings_bendahara_name">Nama Bendahara</string>
+    <string name="settings_class_name">Nama Kelas</string>
+    <string name="settings_students">Manajemen Siswa</string>
+    <string name="settings_report">Laporan &amp; Export</string>
+    <string name="settings_backup">Backup &amp; Restore</string>
+    <string name="settings_biometric">Kunci Sidik Jari</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_about">Tentang Aplikasi</string>
+
+    <!-- Common -->
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_confirm">Konfirmasi</string>
+    <string name="currency_format">Rp %s</string>
+    <string name="delete_confirm">Yakin ingin menghapus?</string>
+    <string name="success_saved">Berhasil disimpan</string>
+    <string name="success_deleted">Berhasil dihapus</string>
+    <string name="error_empty_field">Field tidak boleh kosong</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Kelola Kas Kelas, Lebih Mudah.</string>
 </resources>
