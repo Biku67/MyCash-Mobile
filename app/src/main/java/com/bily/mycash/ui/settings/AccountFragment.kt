@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.bily.mycash.R
 import com.bily.mycash.MyCashApp
 import com.bily.mycash.databinding.FragmentAccountBinding
 import com.bily.mycash.data.db.entity.SettingsEntity
@@ -49,11 +51,11 @@ class AccountFragment : Fragment() {
 
         // Menu clicks
         binding.menuStudents.setOnClickListener {
-            // TODO: Navigate to student list
+            findNavController().navigate(R.id.action_account_to_students)
         }
 
         binding.menuReport.setOnClickListener {
-            // TODO: Navigate to report
+            findNavController().navigate(R.id.action_account_to_report)
         }
 
         binding.menuBackup.setOnClickListener {

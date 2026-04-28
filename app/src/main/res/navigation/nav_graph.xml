@@ -27,6 +27,27 @@
         android:id="@+id/nav_account"
         android:name="com.bily.mycash.ui.settings.AccountFragment"
         android:label="@string/nav_account"
-        tools:layout="@layout/fragment_account" />
+        tools:layout="@layout/fragment_account">
+
+        <action
+            android:id="@+id/action_account_to_students"
+            app:destination="@id/nav_students" />
+
+        <action
+            android:id="@+id/action_account_to_report"
+            app:destination="@id/nav_report" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_students"
+        android:name="com.bily.mycash.ui.student.StudentListFragment"
+        android:label="@string/student_title"
+        tools:layout="@layout/fragment_student_list" />
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.bily.mycash.ui.report.ReportFragment"
+        android:label="@string/report_title"
+        tools:layout="@layout/fragment_report" />
 
 </navigation>
